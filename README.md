@@ -69,7 +69,7 @@ This Code Pattern consists of following activities:
 Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 > Note: if you would prefer to skip the remaining Watson Studio set-up steps and just follow along by viewing the completed Notebook, simply:
-> * View the completed [notebook](https://github.com/aloknsingh/ds_xgboost_clf_4_imbalance_data/tree/master/notebooks/predict_bank_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb) and its outputs, as is.
+> * View the completed [notebook](https://github.com/IBM/xgboost_financial-predictions/tree/master/notebooks/predict_bank_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb) and its outputs, as is.
 > * While viewing the notebook, you can optionally download it to store for future use.
 > * When complete, continue this code pattern by jumping ahead to the [Explore, Analyze and Predict CD Subscription for Bank Client](#explore-analyze-and-predict-cd-subscription-for-bank-client) section.
 
