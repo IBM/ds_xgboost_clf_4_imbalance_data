@@ -97,14 +97,14 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/notebook_spark.png)
 
-* Now select the `From File` tab to specify the file location of the notebook in this repository.
+* Now select the `From URL` tab to specify the URL to the notebook in this repository.
 
-![](doc/source/images/load-from-file.png)
+![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/notebook_with_url_spark.png)
 
-* Enter the location of the file, which can be downloaded from the notebook directory in this repository: 
+* Enter this URL:
 
 ```
-/notebooks/predict_band_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb
+https://github.com/IBM/xgboost-financial-predictions/blob/master/notebooks/predict_band_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb
 ```
 
 * Click the `Create` button.
