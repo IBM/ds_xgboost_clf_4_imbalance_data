@@ -63,7 +63,7 @@ This Code Pattern consists of following activities:
 4. [Upload data](#4-upload-data)
 5. [Run the notebook](#5-run-the-notebook)
 6. [Save and Share](#6-save-and-share)
-
+f
 ### 1. Sign up for the Watson Studio
 
 Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
@@ -184,7 +184,7 @@ options to specify exactly what you want shared from your notebook:
  
 ### 1. Explore the dataset
 
-The imbalanced dataset is from Purtugese banking institutions, and is based on phone calls to bank clients regarding the purchase of financial products offered by the bank (ie. Certificates of Deposit).
+The imbalanced dataset is from Portuguese banking institutions, and is based on phone calls to bank clients regarding the purchase of financial products offered by the bank (ie. Certificates of Deposit).
 
 ### 2. Prepare the data
 
