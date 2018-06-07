@@ -63,7 +63,7 @@ This Code Pattern consists of following activities:
 4. [Upload data](#4-upload-data)
 5. [Run the notebook](#5-run-the-notebook)
 6. [Save and Share](#6-save-and-share)
-f
+
 ### 1. Sign up for the Watson Studio
 
 Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
