@@ -59,10 +59,11 @@ This Code Pattern consists of following activities:
 
 1. [Sign up for the Watson Studio](#1-sign-up-for-the-watson-studio)
 2. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
-3. [Create the notebook](#3-create-the-notebook)
-4. [Upload data](#4-upload-data)
-5. [Run the notebook](#5-run-the-notebook)
-6. [Save and Share](#6-save-and-share)
+3. [Create the Spark Service](#3-create-the-spark-service)
+4. [Create the notebook](#4-create-the-notebook)
+5. [Upload data](#5-upload-data)
+6. [Run the notebook](#6-run-the-notebook)
+7. [Save and Share](#7-save-and-share)
 
 ### 1. Sign up for the Watson Studio
 
@@ -83,15 +84,21 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/new_project.png)
 
-* Upon a successful project creation, you are taken to a dashboard view of your project. Take note of the `Assets` and `Settings` tabs.
-
-* Use the `Settings` tab to associate your `Spark` service to your project. Note that you must first create your `Spark` service using the [IBM Cloud console](https://console.bluemix.net/catalog/services/apache-spark).
-
-* Use the `Assets` tab to associate your projet with any external assets, such as datasets and notebooks. 
+* Upon a successful project creation, you are taken to a dashboard view of your project. Take note of the `Assets` and `Settings` tabs, we'll be using them to associate our project with any external assets (datasets and notebooks) and any IBM cloud services.
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_dashboard.png)
 
-### 3. Create the Notebook
+## 3. Create the Spark service
+
+* In your project go to the `Settings` tab, scroll down to `Associated Services` and choose `+ Add service` -> `Spark`
+
+![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_service.png)
+
+* Either choose and `Existing` Spark service, or create a `New` one
+
+![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png)
+
+### 4. Create the Notebook
 
 * From the project dashboard view, click the `Assets` tab, click the `+ New notebook` button.
 
@@ -115,7 +122,7 @@ https://github.com/IBM/xgboost-financial-predictions/blob/master/notebooks/predi
 
 > Note: If queried for a Python version, select version `3.5`.
 
-### 4. Upload data
+### 5. Upload data
 
 * Return to the project dashboard view and select the `Assets` tab.
 * This project has 1 dataset (`/data/bank.csv`), which you can upload as a data asset in your project. Do this by loading the dataset into the pop up section on the right hand side. Please see a screenshot of what it should look like below.  
@@ -132,7 +139,7 @@ https://github.com/IBM/xgboost-financial-predictions/blob/master/notebooks/predi
 
 ![](doc/source/images/notebook-data-cell.png)
 
-### 5. Run the notebook
+### 6. Run the notebook
 
 When a notebook is executed, what is actually happening is that each code cell in
 the notebook is executed, in order, from top to bottom.
@@ -158,7 +165,7 @@ There are several ways to execute the code cells in your notebook:
     panel. Here you can schedule your notebook to be executed once at some future
     time, or repeatedly at your specified interval.
 
-### 6. Save and Share
+### 7. Save and Share
 
 #### How to save your work:
 
