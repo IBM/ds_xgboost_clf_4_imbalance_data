@@ -83,7 +83,11 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/new_project.png)
 
-* Upon a successful project creation, you are taken to a dashboard view of your project. Take note of the `Assets` and `Settings` tabs, we'll be using them to associate our project with any external assets (datasets and notebooks) and any IBM cloud services.
+* Upon a successful project creation, you are taken to a dashboard view of your project. Take note of the `Assets` and `Settings` tabs.
+
+* Use the `Settings` tab to associate your `Spark` service to your project. Note that you must first create your `Spark` service using the [IBM Cloud console](https://console.bluemix.net/catalog/services/apache-spark).
+
+* Use the `Assets` tab to associate your projet with any external assets, such as datasets and notebooks. 
 
 ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_dashboard.png)
 
