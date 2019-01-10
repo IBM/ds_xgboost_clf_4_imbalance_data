@@ -1,7 +1,7 @@
 
 ## Predicting Bank Client's Cerificate of Deposit Purchase using Scikit Learn and XGBoost for imbalance dataset
 
-This Code Pattern will guide you through how to use `XGBoost`, `Scikit Learn` and `Python` in IBM Watson Studio. The goal is to use a Jupyter notebook and data from the [UCI repository for Bank Marketing Data](http://archive.ics.uci.edu/ml/datasets/Bank+Marketing) to predict if a client will purchase a Certificate of Deposit (CD) from a banking institution.
+This Code Pattern will guide you through how to use `XGBoost`, `Scikit Learn` and `Python` in IBM Watson Studio. The goal is to use a Jupyter notebook and data from the [UCI repository for Bank Marketing Data](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) to predict if a client will purchase a Certificate of Deposit (CD) from a banking institution.
 
 Class imbalance is a common problem in data science, where the number of positive samples are significantly less than the number of negative samples. As data scientists, one would like to solve this problem and create a classifier with good performance. XGBoost (Extreme Gradient Boosting Decision Tree) is very common tool for creating the Machine Learning Models for classification and regression. However, there are various tricks and techniques for creating good classification models using XGBoost for imbalanced data-sets that is non-trivial and the reason for developing this Code Pattern.
 
@@ -35,16 +35,16 @@ This Code Pattern will walk the user through the following conceptual steps:
 
 ## Included components
 
-* [IBM Watson Studio](https://dataplatform.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
-* [Jupyter Notebook](http://jupyter.org/): An open source web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
+* [IBM Watson Studio](https://dataplatform.cloud.ibm.com/): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+* [Jupyter Notebook](https://jupyter.org/): An open source web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
 
 ## Featured technologies
 
 * [Data Science](https://medium.com/ibm-data-science-experience/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [XGBoost](https://github.com/dmlc/xgboost): Extreme Gradient Boosting is decision tree based tools for creating ML model.
-* [Scikit Learn](http://scikit-learn.org/stable/):  A Python library for providing efficient tools for data mining and machine learning.
-* [Pandas](http://pandas.pydata.org/): A Python library providing high-performance, easy-to-use data structures.
+* [Scikit Learn](https://scikit-learn.org/stable/):  A Python library for providing efficient tools for data mining and machine learning.
+* [Pandas](https://pandas.pydata.org/): A Python library providing high-performance, easy-to-use data structures.
 * [Matplotlib](https://matplotlib.org/): A Python library integrating matplot for visualization.
 * [SeaBorn](https://seaborn.pydata.org/): Another higher level Python library for visualization.
 
@@ -67,10 +67,10 @@ This Code Pattern consists of following activities:
 
 ### 1. Sign up for the Watson Studio
 
-Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
+Log in or sign up for IBM's [Watson Studio](https://dataplatform.cloud.ibm.com/).
 
 > Note: if you would prefer to skip the remaining Watson Studio set-up steps and just follow along by viewing the completed Notebook, simply:
-> * View the completed [notebook](https://github.com/IBM/xgboost_financial-predictions/tree/master/notebooks/predict_bank_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb) and its outputs, as is.
+> * View the completed [notebook](notebooks/predict_bank_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb) and its outputs, as is.
 > * While viewing the notebook, you can optionally download it to store for future use.
 > * When complete, continue this code pattern by jumping ahead to the [Explore, Analyze and Predict CD Subscription for Bank Client](#explore-analyze-and-predict-cd-subscription-for-bank-client) section.
 
@@ -115,7 +115,7 @@ Log in or sign up for IBM's [Watson Studio](https://dataplatform.ibm.com).
 * Enter this URL:
 
 ```
-https://github.com/IBM/xgboost-financial-predictions/blob/master/notebooks/predict_band_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb
+https://github.com/IBM/xgboost-financial-predictions/blob/master/notebooks/predict_bank_cd_subs_by_xgboost_clf_for_imbalance_dataset.ipynb
 ```
 
 * Click the `Create` button.
@@ -235,19 +235,19 @@ Awesome job following along! Now go try and take this further or apply it to a d
 
 ## Links
 
-- Watson Studio: https://datascience.ibm.com/docs/content/analyze-data/creating-notebooks.html.
-- Pandas: http://pandas.pydata.org/
-- Data: http://archive.ics.uci.edu/ml/datasets/Bank+Marketing
-- Scikit Learn: http://scikit-learn.org/stable/
+- Watson Studio: https://www.ibm.com/cloud/watson-studiodocs/content/analyze-data/creating-notebooks.html.
+- Pandas: https://pandas.pydata.org/
+- Data: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+- Scikit Learn: https://scikit-learn.org/stable/
 - XGBoost: https://github.com/dmlc/xgboost
 - Matplotlib: https://matplotlib.org/
 - SeaBorn: https://seaborn.pydata.org
 
 # Learn more
 
-* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/code/technologies/data-science/)
+* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/technologies/data-science/)
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
-* **Data Science Experience**: Master the art of data science with IBM's [Data Science Experience](https://datascience.ibm.com/)
+* **Data Science Experience**: Master the art of data science with IBM's [Data Science Experience](https://www.ibm.com/cloud/watson-studio)
 * **Spark on IBM Cloud**: Need a Spark cluster? Create up to 30 Spark executors on IBM Cloud with our [Spark service](https://cloud.ibm.com/catalog/services/apache-spark)
 
 # License
