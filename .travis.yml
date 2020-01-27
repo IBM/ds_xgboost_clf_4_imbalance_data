@@ -1,2 +1,2 @@
 language: generic
-script: false
+script: true
